@@ -1,0 +1,53 @@
+{
+  "short_name": "UyTop",
+  "name": "UyTop | Uy oldi-sotdi va ijara",
+  "description": "UyTop orqali uy sotish, sotib olish, ijaraga berish, chat va profilni boshqarish.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "theme_color": "#108447",
+  "background_color": "#f4f8f2",
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "E'lonlar",
+      "short_name": "E'lonlar",
+      "description": "Uy e'lonlarini ochish",
+      "url": "/listings",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "E'lon qo'shish",
+      "short_name": "Qo'shish",
+      "description": "Yangi uy e'loni joylash",
+      "url": "/add-listing",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Chatlar",
+      "short_name": "Chat",
+      "description": "Xabarlarni ko'rish",
+      "url": "/chats",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}
